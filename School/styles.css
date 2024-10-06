@@ -1,0 +1,142 @@
+/* أسلوب التصميم الأساسي */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #929191;
+    color: #333;
+}
+
+/* تصميم الهيدر والتنقل */
+header {
+    background-color: #6A748A;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* تصميم قسم الترحيب */
+.hero {
+    background-image: url('school.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.hero p {
+    color: white;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #6A748A;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* تصميم صفحة التفاصيل */
+.school-details {
+    padding: 50px;
+    text-align: center;
+}
+
+.school-details h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.school-details .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.school-details .feature {
+    width: 30%;
+    text-align: center;
+}
+
+.school-details .feature i {
+    font-size: 50px;
+    color: #6A748A;
+}
+
+.school-details .feature h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.school-details .feature p {
+    font-size: 16px;
+}
+
+/* تصميم صفحة التسجيل */
+.registration {
+    padding: 50px;
+    text-align: center;
+}
+
+.registration form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.registration label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.registration input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6A748A;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.registration button:hover {
+    background-color: #555;
+}
